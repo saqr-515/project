@@ -1,0 +1,42 @@
+.wegic-badge {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 12px;
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05),
+    0px 4px 6px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(36, 36, 36, 1);
+  transition: all 0.3s;
+  font-family: ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont,
+    "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  z-index: 9999;
+}
+
+.wegic-badge:hover {
+  background: rgba(245, 245, 245, 1);
+}
+
+.wegic-badge:active {
+  background: rgba(242, 242, 242, 1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+}
+
+.wegic-badge img {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+#root {
+  height: 100vh;
+}
